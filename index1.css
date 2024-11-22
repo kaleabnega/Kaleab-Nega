@@ -1,0 +1,558 @@
+body{
+    background-color:grey;
+    /* background-color: lightblue; */
+}
+
+.navbar{
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+body h1{
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+}
+
+
+
+a{
+    color: white;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: large;
+}
+
+.left{
+    /* display: inline; */
+   float: left;
+    font: 100px;
+}
+
+.left_link{
+    justify-content: flex-end;
+  
+}
+
+.right{
+    /* display: inline; */
+   float: right;
+    
+}
+
+
+
+.right_links{
+   margin-left: 50px;
+  
+} 
+
+.image{
+    display: flex;
+    justify-content: center;
+   
+}
+
+#my_photo{
+    border-radius: 20%;
+    margin-right: 35px;
+  
+}
+
+.name{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 32px;
+    padding-bottom: 15px;
+}
+
+.me{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.me_highlights{
+    margin-top: 15px;
+    justify-content: space-around;
+    width: 400px;
+    padding-left: 50px;
+}
+
+.role{
+    font-family: sans-serif;
+    margin-left: 18px;
+}
+
+#photo_of_me{
+    border-radius: 80%;
+    margin-right: 95px;
+    justify-content:center;
+}
+
+.github{
+    border-radius: 45%;
+    margin-left: 75px;
+    margin-right: 20px;
+    width: 37px;
+    height: 37px;
+    background-color: black;
+    border: none;
+    
+}
+
+.linkedin{
+    border-radius: 45%;
+    width: 37px;
+    height: 37px;
+    background-color: black;
+    border: none;
+   
+}
+
+.github:hover{
+    cursor:pointer;
+}
+
+.linkedin:hover{
+    cursor:pointer;
+}
+
+.fa-github{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: white;
+}
+
+.fa-linkedin{
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    color: white;
+}
+
+.CV{
+
+    height: 50px;
+    padding-top: 4px;
+    border-radius: 30%;
+    border: 0.5px black solid;
+    background-color: darkgray;
+    margin-right: 15px;
+    
+    
+}
+
+.CV:hover{
+    cursor:pointer;
+    background-color: lightgray;
+    border: none;
+    font-family: sans-serif;
+    
+}
+
+.CV:active{
+    background-color:lightsteelblue;
+}
+
+.contact_me{
+    width: 120px;
+    height: 50px;
+    border-radius: 30%;
+    border: 0.5px black solid;
+    background-color: darkgray; 
+    
+    
+}
+
+.contact_me:hover{
+    cursor:pointer;
+    background-color: lightgray;
+    border: none;
+    font-family: sans-serif;
+  
+}
+
+.contact_me:active{
+    background-color:lightsteelblue;
+}
+
+.about_me{
+    justify-content: center;
+    width:500px;
+    margin-top: 45px;
+}
+
+.about_me h2{
+    margin-left: 60px;
+}
+
+.experience_container{
+    width: 700px;
+    justify-content: center;
+}
+
+.experience1{
+    display: inline-block;
+    border: 2px black solid;
+    padding-bottom:70px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius:20%;
+    margin-right: 15px;
+    height: 85px;
+    padding-top: 8px;
+}
+
+.experience_header1{
+    /* padding-top: -35px; */
+}
+
+.experience2{
+    display: inline-block;
+    border: 2px black solid;
+    padding: 10px;
+    border-radius:20%;
+}
+
+.skills{
+    padding-top: 150px;
+}
+
+.skills_container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.frontend_container{ /*Why is it the case that when I use only a single span name's class, the other two are also affected?*/
+    width: 200px;
+    height: 150px;
+}
+
+#skills_header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.programming_languages_container, .frontend_container, .backend_container{
+    display: grid; /* This sets the layout to grid */
+    grid-template-columns: repeat(3, 1fr); /* Defines 3 equal-width columns */
+    gap: 50px; /* Defines space between grid items */
+    padding: 10px; /* Adds padding around the grid */
+    border: 1px solid; /* Adds a border to the grid container */
+    width: 417px;
+    border-radius: 35%;
+    padding-top: 80px;
+    padding-bottom: 15px;
+
+}
+
+
+
+.programming_languages_container  span i{
+  font-size: 20px;
+}
+
+
+
+.python_header_label, .java_header_label, .javascript_header_label{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 7px;
+   
+}
+
+.python_level, .java_level, .javascript_level{
+    /* padding-left: 40px; */
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+   
+}
+
+
+.frontend_container  span i{
+    font-size: 20px;
+  }
+  
+  
+  
+  .html_header_label, .css_header_label, .react_header_label{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left: 7px;
+     
+  }
+  
+  .html_level, .css_level, .react_level{
+      /* padding-left: 40px; */
+      font-weight: lighter;
+      font-size: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left: 20px;
+   
+  }
+
+
+
+.backend_container  span i{
+    font-size: 20px;
+  }
+  
+  
+  
+  .nodejs_header_label, .expressjs_header_label, .mongodb_header_label{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left: 7px;
+     
+  }
+  
+  .nodejs_level, .expressjs_level, .mongodb_level{
+      /* padding-left: 40px; */
+      font-weight: lighter;
+      font-size: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left: 20px;
+      display: inline;
+  }
+
+  #projects_label1, .projects_label2{
+    display: flex;
+    justify-content: center;
+  }
+
+ .projects_container{
+    padding-top: 200px;
+    
+ }
+
+ .projects{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-bottom: 20px;
+ }
+
+ .projects_label1{
+    font-weight: lighter;
+ }
+
+ .projects_label2{
+    margin-bottom: 50px;
+ }
+
+ .project1_image, .project2_image, .project3_image{
+    width: 275px;
+    height: 350px;
+    border-radius: 10%;
+ }
+
+.project1_access, .project2_access, .project3_access{
+    /* padding-left: 35px; */
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.project1_github, .project2_github, .project3_github, .project1_livedemo, .project2_livedemo, .project3_livedemo{
+   width: 90px;
+   height: 30px;
+   margin-right: 25px;
+   border-radius: 25%;
+   background-color: grey;
+   cursor: pointer;
+  
+}
+
+
+
+.project1_github:hover{
+    background-color: black;
+    color: white;
+}
+
+.project2_github:hover{
+    background-color: black;
+    color: white;
+}
+
+.project3_github:hover{
+    background-color: black;
+    color: white;
+}
+
+.project1_livedemo:hover{
+    background-color: black;
+    color: white;
+}
+
+.project2_livedemo:hover{
+    background-color: black;
+    color: white;
+}
+
+.project3_livedemo:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer_links_container{
+   width: 100%;
+   height: 200px;
+   background-color: black;
+   margin-top: 255px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.fa-bars{
+    transition: 0.4s;
+}
+
+.resume{
+    /* padding-top: 200px; */
+    /* margin-bottom: -150px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.email, .phone{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.email{
+    padding-top: 50px;
+}
+
+.fa-solid{
+margin-right: 10px;
+font-size: 20px;
+}
+
+.email_text, .phone_text{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+
+    .hanburger_menu, .hamburger_list, .fa-bars{
+            display: none;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 1200px){
+    .skills_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .frontend_container{
+       margin-bottom: 25px;
+        height: 50px;
+    }
+
+    .programming_languages_container{
+        margin-bottom: 25px;
+    }
+
+    .programming_languages_container, .frontend_container, .backend_container{
+        width: 450px;
+    }
+
+    .projects{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project1, .project2{
+        margin-bottom: 25px;
+    } 
+
+    .hanburger_menu, .hamburger_list, .fa-bars{
+        display: none;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 800px){
+
+    .navbar{
+        display: none;
+    }
+
+    .fa-bars {
+        display: flex;
+        float: right;
+        cursor: pointer;
+        position: fixed;
+    }    
+    
+    .hamburger_list.show{
+        display: block;
+        max-height: 200px;
+        position: absolute;
+        z-index: 1;
+        
+    }
+
+    .list_link{
+        color: white;
+    
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        font-size: large;
+    }
+
+
+    .fa-bars.toggle {
+        color: white;
+    } 
+
+    .hamburger_menu.toggle{
+        background-color: black;
+        transition: 0.7s;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    
+}
+
+
