@@ -1,0 +1,316 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin-bottom: 130px;
+}
+
+.first-image-container img {
+  width: 370px;
+  border-radius: 50%;
+}
+
+.my-name {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.my-profession {
+  font-size: 25px;
+  font-weight: bolder;
+  color: grey;
+}
+
+.cv-button,
+.contact-button {
+  border-radius: 17px;
+}
+
+.cv-button:hover{
+  background-color: grey;
+}
+
+.cv-button>a:hover{
+  color: white;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-envelope {
+  font-size: 40px;
+}
+
+.linkedin-github-container button {
+  border: none;
+  background-color: white;
+}
+
+.personal-info {
+  width: 400px;
+}
+
+.hero-section {
+  margin-bottom: 130px;
+}
+
+.about-me-label,
+.skills-label {
+  font-size: 40px;
+  margin-bottom: 60px;
+  font-weight: bolder;
+}
+
+.second-image-container img {
+  width: 320px;
+  height: 365px;
+  border-radius: 12px;
+}
+
+.fa-award,
+.fa-school {
+  font-size: 34px;
+}
+
+.experience-container,
+.education-container {
+  /* min-width: 290px; */
+  min-height: 170px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-education-wrapper {
+  gap: 25px;
+}
+
+.experience-label,
+.education-label {
+  font-weight: bold;
+}
+
+.me-description,
+.two-years,
+.full-stack,
+.bachelors,
+.diploma {
+  color: grey;
+}
+
+.about-me-section {
+  margin-bottom: 130px;
+}
+
+.programming-languages-wrapper .fa-brands,
+.programming-languages-wrapper .fa-solid {
+  font-size: 34px;
+}
+
+.frontend-container > div,
+.backend-container > div {
+  display: flex;
+}
+
+.frontend-container,
+.backend-container {
+  /* min-width: 270px; */
+  min-height: 315px;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.frontend-backend-wrapper {
+  justify-content: center;
+  gap: 25px;
+}
+
+.frontend-label,
+.backend-label {
+  color: grey;
+  font-weight: bolder;
+  font-size: 21px;
+  text-align: center;
+}
+
+.frontend-wrapper,
+.backend-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.frontend-one > div,
+.frontend-two > div,
+.backend-one > div,
+.backend-two > div {
+  display: flex;
+}
+
+.html-container,
+.css-container,
+.javascript-container {
+  margin-bottom: 50px;
+}
+
+.skill-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.html-container,
+.css-container,
+.javascript-container,
+.react-container {
+  display: flex;
+  gap: 20px;
+}
+
+.node-js-container,
+.python-container,
+.express-js-container,
+.my-sql-container {
+  margin-bottom: 20px;
+}
+
+.node-js-container,
+.python-container,
+.express-js-container,
+.java-container,
+.my-sql-container {
+  display: flex;
+  gap: 20px;
+}
+
+.html-label,
+.css-label,
+.javascript-label,
+.react-label,
+.node-js-label,
+.python-label,
+.express-js-label,
+.java-label,
+.my-sql-label {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.skill-description p {
+  color: grey;
+}
+
+.skills-section {
+  margin-bottom: 130px;
+}
+
+.browse-label {
+  color: grey;
+}
+
+.projects-label {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.project-one-container,
+.project-two-container,
+.project-three-container {
+  min-height: 500px;
+  border: 1px solid grey;
+  border-radius: 12px;
+  background-color: #fafafa;
+}
+
+.project-one-image-container img,
+.project-two-image-container img,
+.project-three-image-container img {
+  max-width: 100%;
+  height: 460px;
+  border-radius: 20px;
+}
+
+.project-one-image-container,
+.project-two-image-container,
+.project-three-image-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.zomato-label,
+.task-list-label,
+.book-my-show-label {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.projects-section {
+  margin-bottom: 260px;
+}
+
+.get-in-touch-label {
+  color: grey;
+}
+
+.contact-me-label {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.contact-info-wrapper {
+  border: 1px solid grey;
+  border-radius: 17px;
+}
+
+.gmail-container a,
+.linkedin-container a {
+  font-size: 25px;
+}
+
+.contact-me-section {
+  margin-bottom: 260px;
+}
+
+.footer-links {
+  font-size: 25px;
+  margin-bottom: 70px;
+}
+
+.copyright-container div {
+  color: grey;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 576px) {
+  .frontend-label,
+  .backend-label {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .zomato-label,
+  .task-list-label,
+  .book-my-show-label {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-one-container,
+  .project-two-container {
+    /* width: auto;
+    height: auto; */
+  }
+}
