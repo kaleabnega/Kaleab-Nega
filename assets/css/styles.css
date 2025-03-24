@@ -34,11 +34,11 @@ header {
   border-radius: 17px;
 }
 
-.cv-button:hover{
+.cv-button:hover {
   background-color: grey;
 }
 
-.cv-button>a:hover{
+.cv-button > a:hover {
   color: white;
 }
 
@@ -274,7 +274,8 @@ header {
 
 .gmail-container a,
 .linkedin-container a {
-  font-size: 25px;
+  font-size: 23px;
+  overflow-wrap: break-word;
 }
 
 .contact-me-section {
